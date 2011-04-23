@@ -1,0 +1,118 @@
+groups:
+    Guest:
+        default: true
+        info:
+            prefix: '&7'
+            suffix: ''
+            build: false
+        inheritance:
+        permissions:
+            - 'commandbook.spawn'
+            - 'commandbook.rules'
+    Starter:
+        default: false
+        info:
+            prefix: '&6'
+            suffix: ''
+            build: true
+        inheritance:
+            - Guest
+        permissions:
+            - 'commandbook.kit.list'
+            - 'commandbook.kit.kits.ek'
+            - 'commandbook.who'
+            - 'commandbook.motd'
+            - 'commandbook.teleport'
+            - 'multiverse.world.list'
+            - 'multiverse.tp'
+    Builder:
+        default: false
+        info:
+            prefix: '&2'
+            suffix: ''
+            build: true
+        inheritance:
+            - Starter
+        permissions:
+            - 'commandbook.give'
+            - 'commandbook.clear'
+            - 'commandbook.teleport.other'
+            - 'worldedit.selection.pos'
+            - 'worldedit.region.set'
+            - 'worldedit.wand'
+            - 'worldedit.history.undo'
+            - 'worldedit.history.redo'
+            - 'worldedit.selection.expand'
+    Donator:
+        default: false
+        info:
+            prefix: '&3'
+            suffix: ''
+            build: true
+        inheritance:
+            - Builder
+        permissions:
+            - 'nocheat.speedhack'
+            - 'nocheat.moving'
+    Operator:
+        default: false
+        info:
+            prefix: '&c'
+            suffix: ''
+            build: true
+        inheritance:
+            - Builder
+        permissions:
+            - 'commandbook.kick'
+            - 'commandbook.bans.ban'
+            - '/worldguardnotify'
+    Owner:
+        default: false
+        info:
+            prefix: '&9'
+            suffix: ''
+            build: true
+        inheritance:
+        permissions:
+            - '*'
+
+users:
+    eKristensen:
+        group: Owner
+        permissions:
+    exlted:
+        group: Builder
+        permissions:
+    Oifan:
+        group: Builder
+        permissions:
+    Thechosendonkey:
+        group: Operator
+        permissions:
+    kanttii:
+        group: Donator
+        permissions:
+    SamAri:
+        group: Donator
+        permissions:
+    ChrisEven1995:
+        group: Operator
+        permissions:
+    Aztecfighter:
+        group: Starter
+        permissions:
+    Bomberboy45:
+        group: Starter
+        permissions:
+    Moomoomoo3O9:
+        group: Operator
+        permissions:
+    ceese:
+        group: Operator
+        permissions:
+    acl538:
+        group: Builder
+        permissions:
+    kms01:
+        group: Builder
+        permissions:

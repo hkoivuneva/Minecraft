@@ -1,0 +1,23 @@
+worlds:
+    Guest:
+        animals: false
+        spawn: 95:77:67:0.0:0.0
+        price: 0.0
+        mobs: false
+        environment: NORMAL
+        pvp: false
+        alias: ''
+        worldBlacklist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
+    Premium:
+        animals: true
+        spawn: 66:64:-69:0.0:0.0
+        price: 0.0
+        mobs: true
+        environment: NORMAL
+        pvp: false
+        alias: ''
+        worldBlacklist: ''
+        playerBlacklist: ''
+        playerWhitelist: ''
