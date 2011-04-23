@@ -1,7 +1,0 @@
-# Check README for more settings
-# https://github.com/rmichela/MCStats2
-
-resourceSaveDirectory: /var/www/stats
-statsBaseResource: index
-# ignoreGroups: default
-webserverEnabled: false

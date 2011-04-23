@@ -1,8 +1,0 @@
-# Generated automatically
-# Manual changes will likely be overwritten
-:/ex
-//expand %1 %2 %3
-:/i
-/item %1 %2
-:/s
-//set %1
