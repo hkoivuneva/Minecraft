@@ -1,0 +1,9 @@
+censor-list: []
+censor-color: '&f'
+date-format: HH:mm:ss
+#message-format: '+prefix+name&f: +message'
+message-format: '[+prefix+group+suffix&f] +name: +message'
+#message-format: '[+world][+prefix+group+suffix&f] +name: +message'
+censor-char: '*'
+censor-string-color: '&f'
+censor-colored: false
